@@ -548,6 +548,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
+# old-apns.conf
+PRODUCT_COPY_FILES += \
+    device/lge/bullhead/old-apns-conf.xml:system/etc/old-apns-conf.xml
+
 # Modem debugger/misc
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 ifeq (,$(filter aosp_bullhead, $(TARGET_PRODUCT)))
