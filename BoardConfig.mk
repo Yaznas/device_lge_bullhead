@@ -35,6 +35,10 @@ BOARD_KERNEL_PAGESIZE    := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
 BOARD_RAMDISK_OFFSET     := 0x02000000
 
+TARGET_KERNEL_CONFIG := bullhead_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/bullhead
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bullhead boot_cpus=0-5
 BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1 msm_poweroff.download_mode=0
 BOARD_KERNEL_CMDLINE += loop.max_part=7
@@ -158,6 +162,7 @@ USE_CLANG_PLATFORM_BUILD := true
 
 USE_CLANG_PLATFORM_BUILD := true
 
+<<<<<<< HEAD
 TARGET_FS_CONFIG_GEN += device/lge/bullhead/config.fs
 
 -include vendor/lge/bullhead/BoardConfigVendor.mk
@@ -173,3 +178,9 @@ ifeq ($(TARGET_PRODUCT),bullhead_svelte)
 BOARD_KERNEL_CMDLINE += mem=1024M
 MALLOC_SVELTE := true
 endif
+=======
+# Enable workaround for slow rom flash
+BOARD_SUPPRESS_SECURE_ERASE := true
+
+-include vendor/lge/bullhead/BoardConfigVendor.mk
+>>>>>>> 5aa7af2... Unholy bullhead bringup
