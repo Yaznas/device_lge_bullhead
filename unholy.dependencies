@@ -4,9 +4,9 @@
     "target_path": "kernel/lge/bullhead",
     "revision":    "n7"
   },
-  {
-    "repository": "vendor_lge",
+   {
+    "repository": "PureNexusProject/proprietary_vendor_lge",
     "target_path": "vendor/lge",
-    "revision":    "n7"
+    "branch": "o"
   }
 ]
