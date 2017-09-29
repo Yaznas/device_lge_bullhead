@@ -16,8 +16,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bullhead.mk \
-<<<<<<< HEAD
-    $(LOCAL_DIR)/aosp_bullhead_svelte.mk
-=======
+    $(LOCAL_DIR)/aosp_bullhead_svelte.mk \
     $(LOCAL_DIR)/unholy_bullhead.mk
->>>>>>> 5aa7af2... Unholy bullhead bringup

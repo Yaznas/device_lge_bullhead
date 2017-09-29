@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-<<<<<<< HEAD
 add_lunch_combo aosp_bullhead-userdebug
 add_lunch_combo aosp_bullhead_svelte-userdebug
-=======
 add_lunch_combo unholy_bullhead-userdebug
->>>>>>> 5aa7af2... Unholy bullhead bringup

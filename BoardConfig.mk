@@ -162,7 +162,6 @@ USE_CLANG_PLATFORM_BUILD := true
 
 USE_CLANG_PLATFORM_BUILD := true
 
-<<<<<<< HEAD
 TARGET_FS_CONFIG_GEN += device/lge/bullhead/config.fs
 
 -include vendor/lge/bullhead/BoardConfigVendor.mk
@@ -178,9 +177,8 @@ ifeq ($(TARGET_PRODUCT),bullhead_svelte)
 BOARD_KERNEL_CMDLINE += mem=1024M
 MALLOC_SVELTE := true
 endif
-=======
+
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 -include vendor/lge/bullhead/BoardConfigVendor.mk
->>>>>>> 5aa7af2... Unholy bullhead bringup
