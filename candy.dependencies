@@ -1,0 +1,12 @@
+[
+ {
+   "repository":  "CandyDevices/kernel_lge_bullhead",
+   "target_path": "kernel/lge/bullhead",
+   "branch":      "c8.0"
+ },
+ {
+   "repository":  "CandyDevices/android_vendor_lge",
+   "target_path": "vendor/lge",
+   "branch":      "c8.0"
+ }
+]
