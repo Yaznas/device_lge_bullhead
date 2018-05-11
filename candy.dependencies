@@ -5,7 +5,7 @@
    "branch":      "c8.1"
  },
  {
-   "repository":  "CandyDevices/android_vendor_lge",
+   "repository":  "SecretIngredients/proprietary_vendor_lge",
    "target_path": "vendor/lge",
    "branch":      "c8.1"
  }
