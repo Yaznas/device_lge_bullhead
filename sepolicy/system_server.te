@@ -40,5 +40,3 @@ allowxperm system_server self:socket ioctl msm_sock_ipc_ioctls;
 
 # system_server calls the power HAL, which reads debugfs_rpm
 allow system_server debugfs_rpm:file { read open getattr };
-
-allow system_server pocket_service:service_manager { add find };
