@@ -20,5 +20,5 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
-    BUILD_FINGERPRINT="google/bullhead/bullhead:8.1.0/OPM6.171019.030.H1/4903069:user/release-keys" \
-    PRIVATE_BUILD_DESC="bullhead-user 8.1.0 OPM6.171019.030.H1 4903069 release-keys"
+    BUILD_FINGERPRINT="google/bullhead/bullhead:8.1.0/OPM6.171019.030.K1/4947289:user/release-keys" \
+    PRIVATE_BUILD_DESC="bullhead-user 8.1.0 OPM6.171019.030.K1 4947289 release-keys"
